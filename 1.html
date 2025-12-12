@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Burger Shop</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="top-nav">
+      <div class="logo">🍔</div>
+
+      <nav class="menu">
+        <a href="#">Home</a>
+        <a class="active" href="#">Products</a>
+        <a href="#">Recipes</a>
+        <a href="#">About</a>
+      </nav>
+
+      <div class="auth-buttons">
+        <button class="login">Log in</button>
+        <button class="signup">Sign up</button>
+      </div>
+    </header>
+
+    <main class="container">
+      <!-- Główny produkt -->
+      <section class="big-product">
+        <!-- IMG: główne zdjęcie dużego burgera -->
+        <img
+          src="classic-burger.png"
+          alt="Classic Burger"
+          class="preview-img"
+        />
+
+        <h1>Classic Burger</h1>
+
+        <div class="tags">
+          <span>Fat – 26g</span>
+          <span>Saturates – 10g</span>
+          <span>Sugars – 18g</span>
+          <span>Salt – 1.8g</span>
+        </div>
+
+        <p class="description">
+          The classic burger is an all time BBQ favourite! This super easy
+          homemade beef burger recipe gives you delicious patties, packed with
+          onions and herbs for extra flavour.
+        </p>
+
+        <div class="buy-line">
+          <div class="counter">
+            <button>-</button>
+            <span>0</span>
+            <button>+</button>
+          </div>
+
+          <span class="price">$16</span>
+
+          <button class="add-cart">Add to Cart</button>
+        </div>
+      </section>
+
+      <!-- Produkty boczne -->
+      <section class="side-products">
+        <div class="card">
+          <!-- IMG: miniatura Double Burger -->
+          <img src="double-burger.png" alt="Double Burger" />
+          <h3>Double Burger</h3>
+          <p>Heat the olive oil in a frying pan...</p>
+
+          <div class="card-footer">
+            <div class="counter small">
+              <button>-</button><span>0</span><button>+</button>
+            </div>
+            <span class="price">$18</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <!-- IMG: miniatura Green Burger -->
+          <img src="green-burger.png" alt="Green Burger" />
+          <h3>Green Burger</h3>
+          <p>Combine beef mince with herbs and egg...</p>
+
+          <div class="card-footer">
+            <div class="counter small">
+              <button>-</button><span>0</span><button>+</button>
+            </div>
+            <span class="price">$20</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="taj-chili.png" alt="Taj Chili Burger" />
+          <h3>Taj Chili Burger</h3>
+          <p>Cook the burgers on a preheated grill...</p>
+
+          <div class="card-footer">
+            <div class="counter small">
+              <button>-</button><span>0</span><button>+</button>
+            </div>
+            <span class="price">$22</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="healthy-burger.png" alt="Healthy Burger" />
+          <h3>Healthy Burger</h3>
+          <p>Lightly toast the cut-sides of the buns...</p>
+
+          <div class="card-footer">
+            <div class="counter small">
+              <button>-</button><span>0</span><button>+</button>
+            </div>
+            <span class="price">$14</span>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
